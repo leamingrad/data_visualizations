@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = {extras = ["lab"]}
+matplotlib = "*"
+numpy = "*"
+jupyterlab = "*"
+fastkml = "*"
+descartes = "*"
+"e0761dc" = {path = ".\\Shapely-1.6.4.post1-cp36-cp36m-win_amd64.whl"}
+pygtfs = "*"
+networkx = "*"
+"mpld3" = {git = "https://github.com/javadba/mpld3", ref = "display_fix"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
